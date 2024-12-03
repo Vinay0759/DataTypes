@@ -42,6 +42,11 @@ public class Data{
 
             System.out.println("Size, Minimum and Maximum value doesn't exist");
         }
+        if(a.equalsIgnoreCase("short")){
+            System.out.println("Size: 2byte");
+            int n=15;
+            algorithm(n);
+        }
 
     }
     public static void algorithm(int n){
